@@ -22,9 +22,9 @@ mongoose
   });
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("new api");
-});
+// app.get("/", (req, res) => {
+//   res.send("new api");
+// });
 
 // const Student_Data = [
 //   { id: 1, name: "Ugonna Judith", course: "Biotechnology" },
